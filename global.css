@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ===================================== NAVBAR =========================== */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    padding-top: 20px;
+}
+.navbar .div-1 .a-1{
+    background-color: #f44336;
+    color: white;
+}
+.navbar .div-1 a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+.navbar .div-2 a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px 20px 20px;
+    font-size: 20px;
+}
+.navbar .div-1 a:hover{
+    background-color: rgb(212, 212, 212);
+}
+.navbar .div-1 .a-1:hover{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+.navbar .div-2 a:hover{
+    background-color: rgb(212, 212, 212);
+}
+/* ============================== BACKGROUND-IMG================================== */
+.background-img{
+    background-image: url('Assets/hotel.jpg');
+    height: 94vh;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* ====================== FORM-INSIDE-IMG======================================== */
+.form{
+    height: 320px;
+    width: 590px;
+    background-color: white;
+    margin-left: 20px;
+}
+.form .div-1{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
+.form .div-1 i{
+    padding: 7px;
+}
+.form .div-1 h1{
+    padding-left: 7px;
+}
+.form .div-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.form .div-2 div input{
+    width: 250px;
+    height: 30px;
+    margin-top: 7px;
+}
+.form .div-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.form .div-3 div input{
+    width: 250px;
+    height: 30px;
+    margin-top: 7px;
+}
+.form button{
+    width: 185px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    border: 1px solid gray;
+    padding-right: 15px;
+}
+.form button:hover{
+    background-color: rgb(207, 203, 203);
+    color: black;
+    border: 1px solid rgb(207, 203, 203);
+}
+.form button i{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* ========================== ROOMS ============================ */
+.Rooms-section{
+    margin: 20px;
+}
+.Rooms-section h3{
+    font-size: 30px;
+    margin: 25px 20px 20px 10px;
+}
+.Rooms-section p{
+    font-size: 18px;
+    margin: 12px;
+}
+.Rooms-section .div-1 input{
+   width: 230px;
+   height: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+   
+}
+.Rooms-section .div-2 input{
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.Rooms-section .div-2 button{
+    width: 200px;
+    height:33px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.Rooms-section .div-2 button:hover{
+    background-color: rgb(134, 130, 130);
+    color: black;
+    height:35px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(134, 130, 130);
+}
+.Rooms-section .find-section{
+    display: flex;
+    justify-content: space-between;
+}
+/* ================================ ROOMS_BOOK ==================================== */
+.rooms{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.rooms div{
+    width: 33.43%;
+    height: 560px;
+}
+.rooms div img{
+    width: 390px;
+    height: 330px;
+}
+.rooms div h3{
+    font-size: 20px;
+    margin: 10px;
+}
+.rooms div p{
+    font-size: 20px;
+    margin: 10px;
+}
+.rooms div button{
+    width: 380px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 17px;
+    padding-top: 4px;
+}
+.rooms div button:hover{
+    background-color: rgb(134, 130, 130);
+    color: black;
+    border: 1px solid rgb(134, 130, 130);
+    font-size: 17px;
+    padding-top: 7px;
+}
+/* =========================== MAP ========================= */
+.map{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px
+}
+.map .div-1 {
+ width: 45%;
+ margin-left: 20px;
+ margin-right: 15px;
+}
+.map .div-1 h3{
+    font-size: 30px;
+}
+.map .div-1 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.map div img{
+    width: 800px;
+    margin-right: 20px;
+}
+/* ============================== CONTACT============================== */
+.contact{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact div i{
+    color: #f44336;
+    font-size: 23px;
+    margin: 5px;
+}
+.contact div p{
+    font-size: 20px;
+}
+/* =============================== INFO =============================== */
+.info{
+    background-color: #f44336;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.info i{
+    padding-right: 10px;
+}
+/* =============================== OUR HOTELS ======================= */
+.our-hotels{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.our-hotels .div-1{
+    background-image: url('Assets/cinqueterre.jpg');
+    height: 500px;
+    width: 46%;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-left:25px;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.our-hotels .div-2 p{
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    
+}
+.our-hotels .div-2 .div-hotels-1 .new-york {
+    display: flex;
+    align-items: flex-end;
+    
+}
+.our-hotels .div-2 .div-hotels-1 .san-francisco {
+    display: flex;
+    align-items: flex-end;
+    
+}
+.our-hotels .div-2 .div-hotels-2 .pisa {
+    display: flex;
+    align-items: flex-end;
+    
+}
+.our-hotels .div-2 .div-hotels-2 .paris {
+    display: flex;
+    align-items: flex-end;
+    
+}
+.our-hotels .div-2 p{
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+}
+.our-hotels .div-2 .div-hotels-1{
+    display: flex;
+    justify-content: space-between;
+}
+.our-hotels .div-2 .div-hotels-2{
+    display: flex;
+    justify-content: space-between;
+}
+.our-hotels .div-2 .div-hotels-1 .new-york{
+    background-image: url('Assets/newyork.jpg');
+    height: 240px;
+    width: 300px;
+    background-size: 100% 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+} 
+.our-hotels .div-2 .div-hotels-1 .san-francisco{
+    background-image: url('Assets/sanfran.jpg');
+    height: 240px;
+    width: 300px;
+    background-size: 100% 100%;
+    margin-right: 20px;
+} 
+.our-hotels .div-2 .div-hotels-2 .pisa{
+    background-image: url('Assets/pisa.jpg');
+    height: 240px;
+    width: 300px;
+    background-size: 100% 100%;
+} 
+.our-hotels .div-2 .div-hotels-2 .paris{
+    background-image: url('Assets/paris.jpg');
+    height: 240px;
+    width: 300px;
+    background-size: 100% 100%;
+    margin-right: 20px;
+} 
+/* ===================================== Subscribe ====================================== */
+
+.Subscribe{
+    background-color:rgb(0, 0, 0,0.7);
+    padding: 30px;
+    color: white;
+}
+.Subscribe h2{
+    font-size: 40px;
+    font-weight: 200;
+    padding-top: 30px;
+}
+.Subscribe h4{
+    font-size: 21px;
+    font-weight: 100;
+    padding-top: 15px;
+}
+.Subscribe h5{
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 15px;  
+    padding-bottom: 2px;
+}
+.Subscribe input{
+      width: 100%;
+      height: 45px;
+      padding-left: 10px;
+      font-size: 20px;
+}
+.Subscribe button{
+    width: 130px;
+    height: 47px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: 1px solid rgb(255, 0, 0,0.1);
+    background-color: rgb(255, 0, 0 ,0.5);
+    color: white;
+}
+.Subscribe:hover{
+    background-color:rgb(0, 0, 0);
+}
+.Subscribe button:hover{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+/* =====================================   contact_details ===================================== */
+
+.contact_details{
+    background-color: #f1f1f1 !important;
+    padding: 30px;
+}
+.contact_details h2{
+    font-size: 35px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact_details .p_1{
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.contact_details p i{
+    font-size: 20px;
+    color: #f44336;
+    margin-right: 10px;
+}
+.contact_details p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.contact_details input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.contact_details button{
+    width: 13%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+}
+/* ================================== footer ================================= */
+
+.footer{
+    height: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer i{
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer p a{
+   color: white;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
